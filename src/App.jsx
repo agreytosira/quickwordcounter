@@ -38,8 +38,8 @@ function App() {
                   <h5 className='text-3xl font-bold'>{letterCount}</h5>
                 </div>
               </div>
-              <div className='flex items-center md:flex-col md:items-end gap-2 md:gap-0 mb-4 md:md-0'>
-                <h1 className='text-4xl font-bold mb-1 text-right'>Quick Word Counter</h1>
+              <div className='flex items-center flex-col md:items-end gap-0 mb-8 md:md-0'>
+                <h1 className='text-center text-4xl font-bold mb-1 md:text-right'>Quick Word Counter</h1>
                 <p className='text-slate-600'>v1.0.0</p>
               </div>
             </div>

@@ -28,7 +28,7 @@ function App() {
         <div className='container'>
           <section className='wordcounter md:w-2/3 mx-auto'>
             <div className='my-4 flex item-center justify-between items-center flex-col-reverse md:flex-row'>
-              <div className='flex items-center gap-4 w-full'>
+              <div className='flex items-center gap-4 w-full md:w-auto'>
                 <div className='w-full md:w-auto flex flex-col items-start text-left bg-indigo-300 px-4 py-2 rounded-lg text-indigo-900'>
                   <p>Total Word</p>
                   <h5 className='text-3xl font-bold'>{wordCount}</h5>

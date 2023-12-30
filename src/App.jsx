@@ -51,7 +51,11 @@ function App() {
               value={text}
               onChange={handleTextChange}></textarea>
             <p className='my-4'>
-              Developed by <strong>Agrey Tosira</strong> - All Rights Reserved &copy; {currentYear}
+              Developed by{' '}
+              <strong>
+                <a href='https://agreytosira.my.id'>Agrey Tosira</a>
+              </strong>{' '}
+              - All Rights Reserved &copy; {currentYear}
             </p>
           </section>
         </div>

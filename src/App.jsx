@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <main className='min-h-screen flex items-center justify-center'>
+      <main className='min-h-[90vh]  flex items-center justify-center'>
         <div className='container'>
           <section className='wordcounter md:w-2/3 mx-auto'>
             <div className='my-4 flex item-center justify-between items-center flex-col-reverse md:flex-row'>

@@ -29,12 +29,12 @@ function App() {
           <section className='wordcounter md:w-2/3 mx-auto'>
             <div className='my-4 flex item-center justify-between items-center flex-col-reverse md:flex-row'>
               <div className='flex items-center gap-4 w-full md:w-auto'>
-                <div className='w-full md:w-auto flex flex-col items-start text-left bg-indigo-300 px-4 py-2 rounded-lg text-indigo-900'>
+                <div className='w-full md:w-auto flex flex-col items-start text-left bg-indigo-200 px-4 py-2 rounded-lg text-indigo-900'>
                   <p>Total Word</p>
                   <h5 className='text-3xl font-bold'>{wordCount}</h5>
                 </div>
-                <div className='w-full md:w-auto flex flex-col items-start text-left bg-lime-300 px-4 py-2 rounded-lg text-lime-900'>
-                  <p>Total Letter</p>
+                <div className='w-full md:w-auto flex flex-col items-start text-left bg-indigo-200 px-4 py-2 rounded-lg text-indigo-900'>
+                  <p>Total Character</p>
                   <h5 className='text-3xl font-bold'>{letterCount}</h5>
                 </div>
               </div>
@@ -44,7 +44,7 @@ function App() {
               </div>
             </div>
             <textarea
-              className='transition-all duration-100 ease focus:ring focus:ring-red-300 focus:outline focus:outline-red-600 p-4 border w-full h-[300px] border-slate-300 rounded-lg'
+              className='transition-all duration-100 ease focus:ring focus:ring-indigo-300 focus:outline focus:outline-indigo-600 p-4 border w-full h-[300px] border-slate-300 rounded-lg'
               placeholder='Input your text here...'
               name='input-text'
               id='input-text'
